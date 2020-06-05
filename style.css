@@ -1,0 +1,1049 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Nunito_Sans/NunitoSans-Regular.ttf);
+  }
+
+@font-face {
+    font-family: mySecFont;
+    src: url(../Nunito_Sans/NunitoSans-Black.ttf);
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e0e0e0;
+    margin: auto;
+}
+
+.bgimage{
+    background: url(../images/hero_bg_2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 150vh;
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 255, 255);
+}
+
+.logo{
+    width: 25%;
+    float: left;
+}
+
+.logo img{
+    padding-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+.nav{
+    width: 75%;
+    height: 100px;
+    float: right;
+    /* line-height: 75px; */
+}
+
+.nav ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    list-style: none;
+    line-height: 150px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: mySecFont;
+}
+
+.nav ul li a:hover {
+  color: red;
+}
+
+.active{
+  color: red;
+}
+
+  .text{
+      margin-top: 10%;
+      text-align: center;
+      font-family: myFirstFont;
+      color: white;
+      font-size: 30px;
+      text-transform: uppercase;
+  }
+
+  .fa {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+
+  /* #one {
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 5px 5px gray;
+    transition: width 2s, height 2s;
+    margin-left: 10%;
+  }
+  
+  #one:hover {
+    width: 400px;
+    height: 500px;
+  } */
+
+  div.pic {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 10%;
+    position: absolute;
+    top: 140%;
+    text-transform: capitalize;
+  }
+
+  div.pic:hover{
+    opacity: 0.7;
+  }
+  
+  #one {
+    padding: 10px;
+  }
+
+  div.pic2 {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 40%;
+    position: absolute;
+    top: 140%;
+    text-transform: capitalize;
+  }
+
+  div.pic2:hover{
+    opacity: 0.7;
+  }
+
+  #two {
+    padding: 10px;
+  }
+
+  div.pic3 {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 70%;
+    position: absolute;
+    top: 140%;
+    text-transform: capitalize;
+  }
+  
+  div.pic3:hover{
+    opacity: 0.7;
+  }
+
+  #three {
+    padding: 10px;
+  }
+
+  p{
+    font-family: myFirstFont;
+  }
+
+        div.pic4 {
+          width: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: center;
+          margin-left: 10%;
+          position: absolute;
+          top: 220%;
+          text-transform: capitalize;
+        }
+      
+        div.pic4:hover{
+          opacity: 0.7;
+        }
+        
+        #det {
+          padding: 10px;
+        }
+      
+        div.pic5 {
+          width: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: center;
+          margin-left: 40%;
+          position: absolute;
+          top: 220%;
+          text-transform: capitalize;
+        }
+      
+        div.pic5:hover{
+          opacity: 0.7;
+        }
+      
+        #deta {
+          padding: 10px;
+        }
+      
+        div.pic6 {
+          width: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: center;
+          margin-left: 70%;
+          position: absolute;
+          top: 220%;
+          text-transform: capitalize;
+        }
+        
+        div.pic6:hover{
+          opacity: 0.7;
+        }
+      
+        #detai {
+          padding: 10px;
+        }
+      
+        p{
+          font-family: myFirstFont;
+        }
+
+        div.box{
+          display: block;
+          width: 100%;
+          height: 128%;
+          font-family: myFirstFont;
+          background-color: cornsilk;
+          position: absolute;
+          top: 307%;
+          text-align: center;
+          font-size: 40px;
+        }
+
+        #uni{
+          margin-top: 50px;
+        }
+        #img{
+          margin-left: -40%;
+        }
+
+        #img_txt{
+          width: 550px;
+          height: 300px;
+          display: inline-block;
+          position: absolute;
+          bottom: 20%;
+          right: 200px;
+          background-color: white;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: justify;
+          font-size: 20px;
+          font-family: myFirstFont;
+        }
+
+        .quo{
+          margin: 50px 50px 50px 50px;
+        }
+
+        i{
+          color: tomato;
+        }
+
+        div.box2{
+          display: block;
+          width: 100%;
+          height: 120%;
+          font-family: myFirstFont;
+          background-color: cornsilk;
+          position: absolute;
+          top: 435%;
+          text-align: center;
+          font-size: 40px;
+          background-color: white;
+        }
+
+        div.container1{
+          width: 350px;
+          height: 250px;
+          position: absolute;
+          left: 10%;
+        }
+
+        div.container2{
+          display: inline-block;
+          width: 350px;
+          height: 250px;
+          position: absolute;
+          left: 37%;
+        }
+
+        div.container3{
+          display: inline-block;
+          width: 350px;
+          height: 250px;
+          position: absolute;
+          left: 64%;
+        }
+
+        .container1, .container2, .container3 {
+          font-size: 20px;
+          font-weight: bold;
+          background-color: whitesmoke;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .icon1, .icon2, .icon3 {
+          margin: 40px;
+        }
+
+        #book{
+          margin-top: 350px;
+          text-transform: capitalize;
+          font-family: myFirstFont;
+        }
+
+        #now{
+          font-size: 20px;
+          padding: 20px;
+          width: 200px;
+          height: 70px;
+          margin: 40px;
+          background-color: #25b2c2;
+          box-shadow: 1px 3px 2px;
+          font-family: myFirstFont;
+          color: white;
+        }
+        
+        #now:hover{
+          opacity: 0.7;
+        }
+
+        .footer{
+          width: 100%;
+          height: 80%;
+          background-color: #4d4746;
+        }
+
+        div.foot1{
+          width: 350px;
+          height: 280px;
+          position: absolute;
+          left: 8%;
+        }
+
+        div.foot2{
+          display: inline-block;
+          width: 375px;
+          height: 280px;
+          position: absolute;
+          left: 35%;
+        }
+
+        div.foot3{
+          display: inline-block;
+          width: 370px;
+          height: 280px;
+          position: absolute;
+          left: 64%;
+        }
+
+        .foot1, .foot2, .foot3{
+          margin-top: 100px;
+          font-size: 22px;
+          text-align: left;
+          font-family: myFirstFont;
+          color: white;
+          letter-spacing: 1px;
+          text-transform: capitalize;
+        }
+
+        .list {
+          text-decoration: none;
+          list-style-type: none;
+          font-size: 17px;
+          margin: 5px;
+          padding: 5px;
+          float: left;
+        }
+
+        .list2{
+          text-decoration: none;
+          list-style-type: none;
+          font-size: 17px;
+          padding: 10px;
+          position: absolute;
+          left: 50%;
+        }
+
+        .list, .list2{
+          color: lightgray;
+        }
+
+        .field{
+          margin-top: 10px;
+          width: 350px;
+          height: 40px;
+          text-transform: capitalize;
+          background: transparent;
+          font-size: 15px;
+          color: white;
+          border: 1px solid lightgray;
+          font-family: myFirstFont;
+        }
+
+        #send{
+          font-size: 20px;
+          padding: 10px;
+          width: 200px;
+          height: 50px;
+          margin: 10px;
+          background-color: #25b2c2;
+          font-family: myFirstFont;
+          color: white;
+        }
+
+        /* ...Destination... */
+
+        p.amount{
+          color: tomato;
+        }
+
+        div.pic7 {
+          width: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: center;
+          margin-left: 10%;
+          position: absolute;
+          top: 165%;
+          text-transform: capitalize;
+        }
+      
+        div.pic7:hover{
+          opacity: 0.7;
+        }
+        
+        #one {
+          padding: 10px;
+        }
+      
+        div.pic8 {
+          width: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: center;
+          margin-left: 40%;
+          position: absolute;
+          top: 165%;
+          text-transform: capitalize;
+        }
+      
+        div.pic8:hover{
+          opacity: 0.7;
+        }
+      
+        #two {
+          padding: 10px;
+        }
+      
+        div.pic9 {
+          width: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          text-align: center;
+          margin-left: 70%;
+          position: absolute;
+          top: 165%;
+          text-transform: capitalize;
+        }
+        
+        div.pic9:hover{
+          opacity: 0.7;
+        }
+      
+        #three {
+          padding: 10px;
+        }
+      
+        p{
+          font-family: myFirstFont;
+        }
+      
+              div.pic10 {
+                width: 300px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                margin-left: 10%;
+                position: absolute;
+                top: 235%;
+                text-transform: capitalize;
+              }
+            
+              div.pic10:hover{
+                opacity: 0.7;
+              }
+              
+              #det {
+                padding: 10px;
+              }
+            
+              div.pic11 {
+                width: 300px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                margin-left: 40%;
+                position: absolute;
+                top: 235%;
+                text-transform: capitalize;
+              }
+            
+              div.pic11:hover{
+                opacity: 0.7;
+              }
+            
+              #deta {
+                padding: 10px;
+              }
+            
+              div.pic12 {
+                width: 300px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                margin-left: 70%;
+                position: absolute;
+                top: 235%;
+                text-transform: capitalize;
+              }
+              
+              div.pic12:hover{
+                opacity: 0.7;
+              }
+            
+              #detai {
+                padding: 10px;
+              }
+            
+              p{
+                font-family: myFirstFont;
+              }
+
+              div.box3{
+                display: block;
+                width: 100%;
+                height: 128%;
+                font-family: myFirstFont;
+                background-color: cornsilk;
+                position: absolute;
+                top: 320%;
+                text-align: center;
+                font-size: 40px;
+              }
+      
+              #uni{
+                margin-top: 50px;
+              }
+              #img{
+                margin-left: -40%;
+              }
+      
+              #img_txt{
+                width: 550px;
+                height: 300px;
+                display: inline-block;
+                position: absolute;
+                bottom: 20%;
+                right: 200px;
+                background-color: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: justify;
+                font-size: 20px;
+                font-family: myFirstFont;
+              }
+
+              div.box4{
+                display: block;
+                width: 100%;
+                height: 120%;
+                font-family: myFirstFont;
+                background-color: cornsilk;
+                position: absolute;
+                top: 445%;
+                text-align: center;
+                font-size: 40px;
+                background-color: white;
+              }
+      
+              div.container1{
+                width: 350px;
+                height: 250px;
+                position: absolute;
+                left: 10%;
+              }
+      
+              div.container2{
+                display: inline-block;
+                width: 350px;
+                height: 250px;
+                position: absolute;
+                left: 37%;
+              }
+      
+              div.container3{
+                display: inline-block;
+                width: 350px;
+                height: 250px;
+                position: absolute;
+                left: 64%;
+              }
+      
+              .container1, .container2, .container3 {
+                font-size: 20px;
+                font-weight: bold;
+                background-color: whitesmoke;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              }
+      
+              .icon1, .icon2, .icon3 {
+                margin: 40px;
+              }
+      
+              #book{
+                margin-top: 350px;
+                text-transform: capitalize;
+                font-family: myFirstFont;
+              }
+      
+              #now{
+                font-size: 20px;
+                padding: 20px;
+                width: 200px;
+                height: 70px;
+                margin: 40px;
+                background-color: #25b2c2;
+                box-shadow: 1px 3px 2px;
+                font-family: myFirstFont;
+                color: white;
+              }
+              
+              #now:hover{
+                opacity: 0.7;
+              }
+      
+              .footer{
+                width: 100%;
+                height: 80%;
+                background-color: #4d4746;
+              }
+      
+              div.foot1{
+                width: 350px;
+                height: 280px;
+                position: absolute;
+                left: 8%;
+              }
+      
+              div.foot2{
+                display: inline-block;
+                width: 375px;
+                height: 280px;
+                position: absolute;
+                left: 35%;
+              }
+      
+              div.foot3{
+                display: inline-block;
+                width: 370px;
+                height: 280px;
+                position: absolute;
+                left: 64%;
+              }
+      
+              .foot1, .foot2, .foot3{
+                margin-top: 100px;
+                font-size: 22px;
+                text-align: left;
+                font-family: myFirstFont;
+                color: white;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+              }
+      
+              .list {
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 17px;
+                margin: 5px;
+                padding: 5px;
+                float: left;
+              }
+      
+              .list2{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 17px;
+                padding: 10px;
+                position: absolute;
+                left: 50%;
+              }
+      
+              .list, .list2{
+                color: lightgray;
+              }
+      
+              .field{
+                margin-top: 10px;
+                width: 350px;
+                height: 40px;
+                text-transform: capitalize;
+                background: transparent;
+                font-size: 15px;
+                color: white;
+                border: 1px solid lightgray;
+                font-family: myFirstFont;
+              }
+      
+              #send{
+                font-size: 20px;
+                padding: 10px;
+                width: 200px;
+                height: 50px;
+                margin: 10px;
+                background-color: #25b2c2;
+                font-family: myFirstFont;
+                color: white;
+              }
+
+              div.con-form{
+                position: absolute;
+                width: 46%;
+                height: 100%;
+                background-color: lightgray;
+                left: 10%;
+                margin-top: 50px;
+              }
+
+              .contact-form{
+                margin-top: 50px;
+                margin-left: 50px;
+                font-family: myFirstFont;
+                text-transform: capitalize;
+                font-size: 20px;
+              }
+
+              #move{
+                position: absolute;
+                top: 49px;
+                left: 53%;
+              }
+
+              #fname{
+                width: 40%;
+                height: 40px;
+              }
+
+              #lname{
+                width: 230px;
+                height: 40px;
+              }
+
+              #email{
+                width: 505px;
+                height: 40px;
+              }
+
+              #sub{
+                width: 505px;
+                height: 40px;
+              }
+
+              #message{
+                width: 505px;
+                height: 150px;
+              }
+
+              #mes{
+                font-size: 20px;
+                padding: 10px;
+                width: 200px;
+                height: 50px;
+                background-color: #25b2c2;
+                font-family: myFirstFont;
+                color: white;
+                margin-top: 10px;
+                border: 1px solid black;
+                text-transform: capitalize;
+              }
+
+              div.con-details{
+                width: 33%;
+                height: 60%;
+                background-color: lightgray;
+                position: absolute;
+                left: 58%;
+                margin-top: 50px;
+              }
+
+              p.add{
+                font-family: myFirstFont;
+                font-size: 20px;
+                margin: 20px;
+              }
+
+              .footer-2{
+                width: 100%;
+                height: 80%;
+                background-color: #4d4746;
+                position: absolute;
+                margin-top: 55%;
+              }
+      
+              div.foot1-2{
+                width: 350px;
+                height: 280px;
+                position: absolute;
+                left: 8%;
+              }
+      
+              div.foot2-2{
+                display: inline-block;
+                width: 375px;
+                height: 280px;
+                position: absolute;
+                left: 35%;
+              }
+      
+              div.foot3-2{
+                display: inline-block;
+                width: 370px;
+                height: 280px;
+                position: absolute;
+                left: 64%;
+              }
+      
+              .foot1-2, .foot2-2, .foot3-2{
+                margin-top: 100px;
+                font-size: 22px;
+                text-align: left;
+                font-family: myFirstFont;
+                color: white;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+              }
+      
+              .list-2 {
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 17px;
+                margin: 5px;
+                padding: 5px;
+                float: left;
+              }
+      
+              .list2-2{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 17px;
+                padding: 10px;
+                position: absolute;
+                left: 50%;
+              }
+      
+              .list-2, .list2-2{
+                color: lightgray;
+              }
+      
+              .field-2{
+                margin-top: 10px;
+                width: 350px;
+                height: 40px;
+                text-transform: capitalize;
+                background: transparent;
+                font-size: 15px;
+                color: white;
+                border: 1px solid lightgray;
+                font-family: myFirstFont;
+              }
+      
+              #send-2{
+                font-size: 20px;
+                padding: 10px;
+                width: 200px;
+                height: 50px;
+                margin: 10px;
+                background-color: #25b2c2;
+                font-family: myFirstFont;
+                color: white;
+              }
+              
+              .ab-img{
+                position: absolute;
+                margin-top: 50px;
+                left: 150px;
+              }
+
+              .ab-txt{
+                position: absolute;
+                width: 500px;
+                height: 400px;
+                left: 50%;
+                margin-top: 50px;
+                font-family: myFirstFont;
+                font-size: 20px;
+                text-align: justify;
+              }
+
+              .team{
+                font-family: myFirstFont;
+                position: absolute;
+                margin-top: 20px;
+                left: 44%;
+                font-size: 50px;
+                font-weight: bold;
+                text-transform: capitalize;
+              }
+
+              .pro-card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                max-width: 300px;
+                margin: auto;
+                text-align: center;
+                font-family: arial;
+                position: absolute;
+                margin-top: 10%;
+                left: 40%;
+              }
+              
+              .card-title {
+                color: grey;
+                font-size: 18px;
+              }
+              
+              .card-button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                font-size: 18px;
+              }
+              
+              .anker {
+                text-decoration: none;
+                font-size: 22px;
+                color: black;
+              }
+              
+              .card-button:hover, .anker:hover {
+                opacity: 0.7;
+              }
+
+              #card-container{
+                background-color: whitesmoke;
+                width: 100%;
+                height: 110%;
+                position: absolute;
+                margin-top: 40%;
+              }
+
+              .footer-3{
+                width: 100%;
+                height: 80%;
+                background-color: #4d4746;
+                position: absolute;
+                margin-top: 90%;
+              }
+      
+              div.foot1-3{
+                width: 350px;
+                height: 280px;
+                position: absolute;
+                left: 8%;
+              }
+      
+              div.foot2-3{
+                display: inline-block;
+                width: 375px;
+                height: 280px;
+                position: absolute;
+                left: 35%;
+              }
+      
+              div.foot3-3{
+                display: inline-block;
+                width: 370px;
+                height: 280px;
+                position: absolute;
+                left: 64%;
+              }
+      
+              .foot1-3, .foot2-3, .foot3-3{
+                margin-top: 100px;
+                font-size: 22px;
+                text-align: left;
+                font-family: myFirstFont;
+                color: white;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+              }
+      
+              .list-3 {
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 17px;
+                margin: 5px;
+                padding: 5px;
+                float: left;
+              }
+      
+              .list2-3{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 17px;
+                padding: 10px;
+                position: absolute;
+                left: 50%;
+              }
+      
+              .list-3, .list2-3{
+                color: lightgray;
+              }
+      
+              .field-3{
+                margin-top: 10px;
+                width: 350px;
+                height: 40px;
+                text-transform: capitalize;
+                background: transparent;
+                font-size: 15px;
+                color: white;
+                border: 1px solid lightgray;
+                font-family: myFirstFont;
+              }
+      
+              #send-3{
+                font-size: 20px;
+                padding: 10px;
+                width: 200px;
+                height: 50px;
+                margin: 10px;
+                background-color: #25b2c2;
+                font-family: myFirstFont;
+                color: white;
+              }
+              
+
+
+              
+        
+
+      
